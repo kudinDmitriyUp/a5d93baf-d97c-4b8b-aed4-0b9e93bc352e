@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
@@ -187,9 +187,9 @@ export default function Home() {
             }
           ]}
           socialLinks={[
-            { icon: "Github", href: "https://github.com/idanzeidman", ariaLabel: "GitHub Profile" },
-            { icon: "Linkedin", href: "https://linkedin.com/in/idanzeidman", ariaLabel: "LinkedIn Profile" },
-            { icon: "Mail", href: "mailto:hello@idanzeidman.com", ariaLabel: "Email Contact" }
+            { icon: Github, href: "https://github.com/idanzeidman", ariaLabel: "GitHub Profile" },
+            { icon: Linkedin, href: "https://linkedin.com/in/idanzeidman", ariaLabel: "LinkedIn Profile" },
+            { icon: Mail, href: "mailto:hello@idanzeidman.com", ariaLabel: "Email Contact" }
           ]}
         />
       </div>
